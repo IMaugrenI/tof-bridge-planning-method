@@ -1,0 +1,8 @@
+services:
+  bridge_planning:
+    build: .
+    container_name: tof_bridge_planning_method
+    working_dir: /app
+    volumes:
+      - .:/app
+    command: ["tof-bridge-plan", "run", "--repo-root", "/app"]

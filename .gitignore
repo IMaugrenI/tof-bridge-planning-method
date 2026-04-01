@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+.venv/
+.pytest_cache/
+01_sketches/
+02_candidate_sets/
+03_reports/

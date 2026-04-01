@@ -1,0 +1,38 @@
+[
+  {
+    "block_id": "block_discord_roles",
+    "title": "Prepared Discord role bundle",
+    "prepared_kind": "discord_fragment",
+    "summary": "Prepared structure around onboarding roles and channels.",
+    "signals": ["discord", "roles", "channels", "onboarding"],
+    "open_questions": ["Should onboarding stay bundled with rules?"],
+    "uncertainty": "medium"
+  },
+  {
+    "block_id": "block_bot_interaction",
+    "title": "Prepared bot interaction surface",
+    "prepared_kind": "bot_fragment",
+    "summary": "Prepared interaction outline around slash commands and moderation flow.",
+    "signals": ["bot", "slash", "moderation", "interaction"],
+    "open_questions": ["Should moderation remain a single module?"],
+    "uncertainty": "medium"
+  },
+  {
+    "block_id": "block_repo_runtime",
+    "title": "Prepared repo/runtime service cluster",
+    "prepared_kind": "repo_fragment",
+    "summary": "Prepared runtime cluster around bot, postgres, and redis.",
+    "signals": ["repo", "postgres", "redis", "services"],
+    "open_questions": ["Should redis stay optional?"],
+    "uncertainty": "low"
+  },
+  {
+    "block_id": "block_mixed_open",
+    "title": "Prepared mixed open candidate",
+    "prepared_kind": "mixed_fragment",
+    "summary": "Prepared mixed material touching topology and runtime but still open.",
+    "signals": ["discord", "repo", "open"],
+    "open_questions": ["Is this primarily structural or runtime-facing?"],
+    "uncertainty": "high"
+  }
+]
