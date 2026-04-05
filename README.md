@@ -2,49 +2,13 @@
 
 > English is the primary text in this repository. A German clone is available in `README_DE.md`.
 
-Public bridge-planning baseline for continuing prepared building blocks into sketches and target candidates without claiming runtime truth.
+Public bridge_planning baseline for continuing prepared building blocks into sketches and target candidates without claiming runtime truth.
 
-## At a glance
+I use this repo to show how prepared material can move forward in a structured planning space without turning planning into implementation by accident.
 
-- starts from prepared building blocks
-- produces rough sketches and candidate sets
-- keeps uncertainty visible
-- marks target candidates as planning objects, not implementation truth
-- avoids silent release from planning into runtime
+## start_here
 
-## Why this repo exists
-
-This repository is a public-safe baseline for a bridge-planning pattern:
-
-- continue prepared building blocks
-- keep multiple directions open where needed
-- form rough sketches
-- create target candidates
-- preserve the boundary between planning and active runtime truth
-
-## What this repo is
-
-- a reduced technical method baseline
-- a runnable demo pipeline
-- a public-safe example of planning discipline between preparation and later implementation
-
-## What this repo is not
-
-- not runtime truth
-- not the private internal planning space
-- not an implementation generator
-- not a hidden release path
-
-## Planning chain
-
-1. `00_prepared_blocks/` – prepared building blocks
-2. `01_sketches/` – rough sketches per block
-3. `02_candidate_sets/` – target candidate bundles
-4. `03_reports/` – summary and acceptance
-
-## Quick start
-
-### Local
+### local
 
 ```bash
 python -m venv .venv
@@ -53,32 +17,45 @@ pip install -e .
 tof-bridge-plan run
 ```
 
-### Docker
+### docker
 
 ```bash
 docker compose up --build bridge_planning
 ```
 
-## Demo input
+## what_this_repo_does
 
-The repository contains only public-safe fictional building blocks.
+1. starts from prepared building blocks
+2. produces sketches and candidate sets
+3. keeps uncertainty visible
+4. marks target candidates as planning objects, not implementation truth
+5. prevents silent release from planning into runtime
 
-They are intentionally small and show how prepared material can continue into:
-- Discord structure candidates
-- bot interaction candidates
-- repo/runtime service candidates
-- review-required open candidates
+## why_this_matters
 
-## Key rules
+1. planning and runtime truth are not the same thing
+2. prepared material often needs multiple open directions
+3. target candidates need review before implementation
+4. planning discipline prevents hidden release paths
 
-- planning is not runtime truth
-- target candidates are not implementation
-- uncertainty stays visible
-- direction may stay open
-- the default run does not materialize runtime code
+## planning_chain
 
-## Related public repos
+1. `00_prepared_blocks/` = prepared building blocks
+2. `01_sketches/` = rough sketches per block
+3. `02_candidate_sets/` = target candidate bundles
+4. `03_reports/` = summary and acceptance
 
-- [`tof-legacy-recovery-workbench`](https://github.com/IMaugrenI/tof-legacy-recovery-workbench) — recovery and separation baseline
+## for_employers
+
+This repo is useful if you want to see how I handle:
+
+1. structured continuation from preparation into planning
+2. visible uncertainty instead of false certainty
+3. disciplined boundaries between planning and implementation
+4. method design for later build_out work
+
+## related_public_repos
+
+- [`tof_legacy_recovery_workbench`](https://github.com/IMaugrenI/tof-legacy-recovery-workbench) — recovery and separation baseline
 - [`tof_local_builder`](https://github.com/IMaugrenI/tof_local_builder) — local builder stack
-- [`tof_local_knowledge`](https://github.com/IMaugrenI/tof_local_knowledge) — on-prem local knowledge system
+- [`tof_local_knowledge`](https://github.com/IMaugrenI/tof_local_knowledge) — on_prem local knowledge system

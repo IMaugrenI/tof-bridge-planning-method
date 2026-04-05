@@ -1,50 +1,14 @@
 # tof-bridge-planning-method
 
-> Deutsch ist die Spiegelversion dieses Repositories. Der englische Primärtext liegt in `README.md`.
+> Die englische Hauptfassung liegt in `README.md`.
 
-Öffentliche Bridge-Planning-Baseline, um vorbereitete Bausteine in Skizzen und Zielkandidaten weiterzuführen, ohne Runtime-Wahrheit zu behaupten.
+Oeffentliche bridge_planning Baseline, um vorbereitete Bausteine in Skizzen und Zielkandidaten weiterzufuehren, ohne Runtime_Wahrheit zu behaupten.
 
-## Kurzüberblick
+Ich nutze dieses Repo, um zu zeigen, wie vorbereitete Materialien in einem strukturierten Planungsraum weitergehen koennen, ohne dass Planung versehentlich zu Implementierung wird.
 
-- startet mit vorbereiteten Bausteinen
-- erzeugt grobe Skizzen und Candidate-Sets
-- hält Unsicherheit sichtbar
-- markiert Zielkandidaten als Planungsobjekte, nicht als Implementierungswahrheit
-- vermeidet stille Freigabe von Planung in Runtime
+## start_here
 
-## Warum dieses Repo existiert
-
-Dieses Repository ist eine öffentliche sichere Baseline für ein Brückenplanungs-Muster:
-
-- vorbereitete Bausteine weiterführen
-- mehrere Richtungen offen halten, wo nötig
-- grobe Skizzen bilden
-- Zielkandidaten erzeugen
-- die Grenze zwischen Planung und aktiver Runtime-Wahrheit bewahren
-
-## Was dieses Repo ist
-
-- eine reduzierte technische Methoden-Baseline
-- eine lauffähige Demo-Pipeline
-- ein öffentlich sicheres Beispiel für Planungsdisziplin zwischen Vorbereitung und späterer Umsetzung
-
-## Was dieses Repo nicht ist
-
-- keine Runtime-Wahrheit
-- nicht der private interne Planungsraum
-- kein Implementierungs-Generator
-- kein versteckter Release-Pfad
-
-## Planungskette
-
-1. `00_prepared_blocks/` – vorbereitete Bausteine
-2. `01_sketches/` – grobe Skizzen pro Baustein
-3. `02_candidate_sets/` – Zielkandidaten-Bündel
-4. `03_reports/` – Summary und Acceptance
-
-## Schnellstart
-
-### Lokal
+### local
 
 ```bash
 python -m venv .venv
@@ -53,32 +17,45 @@ pip install -e .
 tof-bridge-plan run
 ```
 
-### Docker
+### docker
 
 ```bash
 docker compose up --build bridge_planning
 ```
 
-## Demo-Input
+## was_dieses_repo_macht
 
-Das Repository enthält nur öffentlich sichere fiktive Bausteine.
+1. es startet von vorbereiteten Bausteinen
+2. es erzeugt Skizzen und Kandidatenmengen
+3. es haelt Unsicherheit sichtbar
+4. es markiert Zielkandidaten als Planungsobjekte, nicht als Implementierungswahrheit
+5. es verhindert stillen Uebergang von Planung in Runtime
 
-Sie zeigen absichtlich klein, wie vorbereitete Substanz weitergeführt werden kann in:
-- Discord-Strukturkandidaten
-- Bot-Interaktionskandidaten
-- Repo-/Runtime-Servicekandidaten
-- review-pflichtige offene Kandidaten
+## warum_das_wichtig_ist
 
-## Wichtige Regeln
+1. Planung und Runtime_Wahrheit sind nicht dasselbe
+2. vorbereitete Materialien brauchen oft mehrere offene Richtungen
+3. Zielkandidaten brauchen Review vor der Implementierung
+4. Planungsdisziplin verhindert versteckte Release_Pfade
 
-- Planung ist nicht Runtime-Wahrheit
-- Zielkandidaten sind nicht Implementierung
-- Unsicherheit bleibt sichtbar
-- Richtung darf offen bleiben
-- der Default-Lauf materialisiert keinen Runtime-Code
+## planning_chain
 
-## Verwandte öffentliche Repos
+1. `00_prepared_blocks/` = vorbereitete Bausteine
+2. `01_sketches/` = grobe Skizzen pro Baustein
+3. `02_candidate_sets/` = Zielkandidaten_Buendel
+4. `03_reports/` = Zusammenfassung und Annahme
 
-- [`tof-legacy-recovery-workbench`](https://github.com/IMaugrenI/tof-legacy-recovery-workbench) — Recovery- und Trenn-Baseline
-- [`tof_local_builder`](https://github.com/IMaugrenI/tof_local_builder) — lokaler Builder-Stack
-- [`tof_local_knowledge`](https://github.com/IMaugrenI/tof_local_knowledge) — on-prem lokales Wissenssystem
+## fuer_arbeitgeber
+
+Dieses Repo ist nuetzlich, wenn du sehen willst, wie ich mit folgenden Dingen umgehe:
+
+1. strukturierter Fortsetzung von Vorbereitung in Planung
+2. sichtbarer Unsicherheit statt falscher Sicherheit
+3. disziplinierten Grenzen zwischen Planung und Implementierung
+4. Methodendesign fuer spaetere Ausbauarbeit
+
+## verwandte_oeffentliche_repos
+
+- [`tof_legacy_recovery_workbench`](https://github.com/IMaugrenI/tof-legacy-recovery-workbench) — Recovery_ und Trennungs_Baseline
+- [`tof_local_builder`](https://github.com/IMaugrenI/tof_local_builder) — lokaler Builder_Stack
+- [`tof_local_knowledge`](https://github.com/IMaugrenI/tof_local_knowledge) — on_prem lokales Wissenssystem
