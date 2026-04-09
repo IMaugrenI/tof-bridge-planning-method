@@ -2,13 +2,21 @@
 
 > Die englische Hauptfassung liegt in `README.md`.
 
-Oeffentliche bridge_planning Baseline, um vorbereitete Bausteine in Skizzen und Zielkandidaten weiterzufuehren, ohne Runtime_Wahrheit zu behaupten.
+Öffentliche Planungs-Baseline, um vorbereitete Bausteine in Skizzen und Zielkandidaten weiterzuführen, ohne Runtime-Wahrheit zu behaupten.
 
-Ich nutze dieses Repo, um zu zeigen, wie vorbereitete Materialien in einem strukturierten Planungsraum weitergehen koennen, ohne dass Planung versehentlich zu Implementierung wird.
+Ich nutze dieses Repo, um zu zeigen, wie vorbereitete Materialien in einem strukturierten Planungsraum weitergeführt werden können, ohne dass Planung aus Versehen zu Implementierung wird.
 
-## start_here
+## Warum dieses Repo öffentlich ist
 
-### local
+Ich habe dieses Repo öffentlich gemacht, weil zwischen Recovery und Umsetzung ein eigener, disziplinierter Brückenraum gehört.
+
+Ich will nicht direkt von altem Material in neue Runtime springen. Ich will eine echte Zwischenebene, in der klar wird, was übernommen, übersetzt oder verworfen wird.
+
+Dieses Repo ist kein Hauptprodukt-Repo. Es ist ein Method-Repo, das zeigt, wie ich über Architektur und Übergänge nachdenke.
+
+## Einstieg
+
+### lokal
 
 ```bash
 python -m venv .venv
@@ -23,39 +31,39 @@ tof-bridge-plan run
 docker compose up --build bridge_planning
 ```
 
-## was_dieses_repo_macht
+## Was dieses Repo macht
 
-1. es startet von vorbereiteten Bausteinen
-2. es erzeugt Skizzen und Kandidatenmengen
-3. es haelt Unsicherheit sichtbar
-4. es markiert Zielkandidaten als Planungsobjekte, nicht als Implementierungswahrheit
-5. es verhindert stillen Uebergang von Planung in Runtime
+1. startet mit vorbereiteten Bausteinen
+2. erzeugt Skizzen und Kandidatensets
+3. hält Unsicherheit sichtbar
+4. markiert Zielkandidaten als Planungsobjekte, nicht als Umsetzungswahrheit
+5. verhindert stillschweigende Freigabe von Planung in Runtime
 
-## warum_das_wichtig_ist
+## Warum das wichtig ist
 
-1. Planung und Runtime_Wahrheit sind nicht dasselbe
+1. Planung und Runtime-Wahrheit sind nicht dasselbe
 2. vorbereitete Materialien brauchen oft mehrere offene Richtungen
-3. Zielkandidaten brauchen Review vor der Implementierung
-4. Planungsdisziplin verhindert versteckte Release_Pfade
+3. Zielkandidaten brauchen Review vor der Umsetzung
+4. Planungsdisziplin verhindert versteckte Freigabepfade
 
-## planning_chain
+## Planungskette
 
 1. `00_prepared_blocks/` = vorbereitete Bausteine
 2. `01_sketches/` = grobe Skizzen pro Baustein
-3. `02_candidate_sets/` = Zielkandidaten_Buendel
-4. `03_reports/` = Zusammenfassung und Annahme
+3. `02_candidate_sets/` = Zielkandidaten-Bündel
+4. `03_reports/` = Zusammenfassung und Abnahme
 
-## fuer_arbeitgeber
+## Für Arbeitgeber
 
-Dieses Repo ist nuetzlich, wenn du sehen willst, wie ich mit folgenden Dingen umgehe:
+Dieses Repo ist nützlich, wenn du sehen willst, wie ich mit Folgendem umgehe:
 
-1. strukturierter Fortsetzung von Vorbereitung in Planung
+1. strukturierter Fortführung von Vorbereitung in Planung
 2. sichtbarer Unsicherheit statt falscher Sicherheit
-3. disziplinierten Grenzen zwischen Planung und Implementierung
-4. Methodendesign fuer spaetere Ausbauarbeit
+3. disziplinierten Grenzen zwischen Planung und Umsetzung
+4. Methodik-Design für späteren Ausbau
 
-## verwandte_oeffentliche_repos
+## Verwandte öffentliche Repos
 
-- [`tof_legacy_recovery_workbench`](https://github.com/IMaugrenI/tof-legacy-recovery-workbench) — Recovery_ und Trennungs_Baseline
-- [`tof_local_builder`](https://github.com/IMaugrenI/tof_local_builder) — lokaler Builder_Stack
-- [`tof_local_knowledge`](https://github.com/IMaugrenI/tof_local_knowledge) — on_prem lokales Wissenssystem
+- [`tof-legacy-recovery-workbench`](https://github.com/IMaugrenI/tof-legacy-recovery-workbench) — Recovery- und Trennungs-Baseline
+- [`tof_local_builder`](https://github.com/IMaugrenI/tof_local_builder) — lokaler Builder-Stack
+- [`tof_local_knowledge`](https://github.com/IMaugrenI/tof_local_knowledge) — on-prem lokales Wissenssystem
