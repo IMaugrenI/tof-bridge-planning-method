@@ -2,9 +2,17 @@
 
 > English is the primary text in this repository. A German clone is available in `README_DE.md`.
 
-Public bridge_planning baseline for continuing prepared building blocks into sketches and target candidates without claiming runtime truth.
+Public bridge-planning baseline for continuing prepared building blocks into sketches and target candidates without claiming runtime truth.
 
 I use this repo to show how prepared material can move forward in a structured planning space without turning planning into implementation by accident.
+
+## why_this_repo_is_public
+
+I made this repo public because I believe there should be a disciplined bridge space between recovery and implementation.
+
+I do not want to jump directly from old material into new runtime. I want a real intermediate planning layer where it becomes clear what is adopted, translated, or rejected.
+
+This repo is not a main product repo. It is a method repo that shows how I think about architecture and transition discipline.
 
 ## start_here
 
@@ -52,10 +60,10 @@ This repo is useful if you want to see how I handle:
 1. structured continuation from preparation into planning
 2. visible uncertainty instead of false certainty
 3. disciplined boundaries between planning and implementation
-4. method design for later build_out work
+4. method design for later build-out work
 
 ## related_public_repos
 
-- [`tof_legacy_recovery_workbench`](https://github.com/IMaugrenI/tof-legacy-recovery-workbench) — recovery and separation baseline
+- [`tof-legacy-recovery-workbench`](https://github.com/IMaugrenI/tof-legacy-recovery-workbench) — recovery and separation baseline
 - [`tof_local_builder`](https://github.com/IMaugrenI/tof_local_builder) — local builder stack
-- [`tof_local_knowledge`](https://github.com/IMaugrenI/tof_local_knowledge) — on_prem local knowledge system
+- [`tof_local_knowledge`](https://github.com/IMaugrenI/tof_local_knowledge) — on-prem local knowledge system
