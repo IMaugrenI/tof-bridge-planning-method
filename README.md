@@ -6,7 +6,7 @@ Public bridge-planning baseline for continuing prepared building blocks into ske
 
 I use this repo to show how prepared material can move forward in a structured planning space without turning planning into implementation by accident.
 
-## why_this_repo_is_public
+## Why this repo is public
 
 I made this repo public because I believe there should be a disciplined bridge space between recovery and implementation.
 
@@ -14,9 +14,9 @@ I do not want to jump directly from old material into new runtime. I want a real
 
 This repo is not a main product repo. It is a method repo that shows how I think about architecture and transition discipline.
 
-## start_here
+## Start here
 
-### local
+### Local
 
 ```bash
 python -m venv .venv
@@ -25,13 +25,13 @@ pip install -e .
 tof-bridge-plan run
 ```
 
-### docker
+### Docker
 
 ```bash
 docker compose up --build bridge_planning
 ```
 
-## what_this_repo_does
+## What this repo does
 
 1. starts from prepared building blocks
 2. produces sketches and candidate sets
@@ -39,21 +39,21 @@ docker compose up --build bridge_planning
 4. marks target candidates as planning objects, not implementation truth
 5. prevents silent release from planning into runtime
 
-## why_this_matters
+## Why this matters
 
 1. planning and runtime truth are not the same thing
 2. prepared material often needs multiple open directions
 3. target candidates need review before implementation
 4. planning discipline prevents hidden release paths
 
-## planning_chain
+## Planning chain
 
 1. `00_prepared_blocks/` = prepared building blocks
 2. `01_sketches/` = rough sketches per block
 3. `02_candidate_sets/` = target candidate bundles
 4. `03_reports/` = summary and acceptance
 
-## for_employers
+## For employers
 
 This repo is useful if you want to see how I handle:
 
@@ -62,7 +62,7 @@ This repo is useful if you want to see how I handle:
 3. disciplined boundaries between planning and implementation
 4. method design for later build-out work
 
-## related_public_repos
+## Related public repos
 
 - [`tof-legacy-recovery-workbench`](https://github.com/IMaugrenI/tof-legacy-recovery-workbench) — recovery and separation baseline
 - [`tof_local_builder`](https://github.com/IMaugrenI/tof_local_builder) — local builder stack
