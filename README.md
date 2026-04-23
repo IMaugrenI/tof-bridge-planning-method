@@ -1,10 +1,28 @@
 # tof-bridge-planning-method
 
-> English is the primary text in this repository. A German clone is available in `README_DE.md`.
+> English is the primary text in this repository. A German mirror is available in `README_DE.md`.
 
 Public bridge-planning baseline for continuing prepared building blocks into sketches and target candidates without claiming runtime truth.
 
 I use this repo to show how prepared material can move forward in a structured planning space without turning planning into implementation by accident.
+
+## What this repo is
+
+This repository is a public method / transition repo for bridge-planning between prepared material and later target candidates.
+
+## Who it is for
+
+This repo is for technical readers who want to see how prepared blocks move into structured planning without being mistaken for implementation truth.
+
+## What it is not
+
+This repo is not runtime truth, not implementation, and not a silent release path from planning into runtime.
+
+## Where to go next
+
+- `tof-showcase` — public architecture and product-line overview
+- `tof-legacy-recovery-workbench` — recovery discipline before planning
+- `tof-v7-public-frame` — tighter boundary reading after the broader family frame
 
 ## Why this repo is public
 
