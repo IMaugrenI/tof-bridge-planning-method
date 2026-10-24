@@ -2,6 +2,8 @@
 
 > Die englische Hauptfassung liegt in `README.md`.
 
+> **Neu hier?** Starte mit [START_HERE_DE.md](START_HERE_DE.md). Dort stehen Planungskette, erster lokaler Lauf und die klare Grenze dessen, was erzeugte Kandidaten **nicht** bedeuten.
+
 Öffentliche bridge-planning-Basis, um vorbereitete Bausteine in Skizzen und Zielkandidaten weiterzuführen, ohne Runtime-Wahrheit zu behaupten.
 
 Ich nutze dieses Repo, um zu zeigen, wie vorbereitetes Material in einem strukturierten Planungsraum weitergehen kann, ohne dass Planung aus Versehen zu Implementierung wird.

@@ -2,6 +2,8 @@
 
 > English is the primary text in this repository. A German mirror is available in `README_DE.md`.
 
+> **New here?** Start with [START_HERE.md](START_HERE.md). It explains the planning chain, the first local run, and what the generated candidates do **not** mean.
+
 Public bridge-planning baseline for continuing prepared building blocks into sketches and target candidates without claiming runtime truth.
 
 I use this repo to show how prepared material can move forward in a structured planning space without turning planning into implementation by accident.
