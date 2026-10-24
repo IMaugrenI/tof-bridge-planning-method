@@ -81,4 +81,4 @@ See [SECURITY.md](SECURITY.md).
 ## More context
 
 - [tof-showcase](https://github.com/IMaugrenI/tof-showcase) — broader public architecture
-- [tof-v7-public-frame](https://github.com/IMaugrenI/tof-v7-public-frame) — stricter public boundary reading
+- [tof-v7-public-frame](https://github.com/IMaugrenI/tof-v7-public-frame) — version-tagged architecture reference on responsibility boundaries
