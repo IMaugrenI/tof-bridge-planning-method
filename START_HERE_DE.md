@@ -24,17 +24,30 @@ Die Ausgabe ist Planungsmaterial. Ein Kandidat ist nicht automatisch angenommen,
 
 ## Erster lokaler Lauf
 
+Einmal klonen:
+
 ```bash
 git clone https://github.com/IMaugrenI/tof-bridge-planning-method.git
 cd tof-bridge-planning-method
+```
 
-python -m venv .venv
+### Linux / macOS
+
+```bash
+python3 -m venv .venv
 source .venv/bin/activate
-pip install -e .
+python -m pip install -e .
 tof-bridge-plan run
 ```
 
-Unter Windows aktivierst du die virtuelle Umgebung vorher mit dem normalen PowerShell-/Command-Prompt-Befehl.
+### Windows PowerShell
+
+```powershell
+py -m venv .venv
+.\.venv\Scripts\Activate.ps1
+python -m pip install -e .
+tof-bridge-plan run
+```
 
 ## Docker-Alternative
 
