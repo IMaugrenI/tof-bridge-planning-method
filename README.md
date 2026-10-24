@@ -24,7 +24,7 @@ This repo is not runtime truth, not implementation, and not a silent release pat
 
 - `tof-showcase` — public architecture and product-line overview
 - `tof-legacy-recovery-workbench` — recovery discipline before planning
-- `tof-v7-public-frame` — tighter boundary reading after the broader family frame
+- `tof-v7-public-frame` — version-tagged architecture reference on system boundaries
 
 ## Why this repo is public
 
