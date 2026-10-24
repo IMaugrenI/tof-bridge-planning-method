@@ -18,16 +18,9 @@ Dieses Repo ist kein Hauptprodukt-Repo. Es ist ein Method-Repo, das zeigt, wie i
 
 ## Einstieg
 
-### lokal
+Für den plattformspezifischen lokalen Start (Linux/macOS/Windows) nutze [START_HERE_DE.md](START_HERE_DE.md).
 
-```bash
-python -m venv .venv
-source .venv/bin/activate
-pip install -e .
-tof-bridge-plan run
-```
-
-### docker
+### Docker
 
 ```bash
 docker compose up --build bridge_planning
