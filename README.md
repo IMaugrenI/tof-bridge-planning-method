@@ -36,14 +36,7 @@ This repo is not a main product repo. It is a method repo that shows how I think
 
 ## Start here
 
-### Local
-
-```bash
-python -m venv .venv
-source .venv/bin/activate
-pip install -e .
-tof-bridge-plan run
-```
+For the platform-specific local setup (Linux/macOS/Windows), use [START_HERE.md](START_HERE.md).
 
 ### Docker
 
