@@ -24,17 +24,30 @@ The output is planning material. A candidate is not automatically accepted, impl
 
 ## First local run
 
+Clone once:
+
 ```bash
 git clone https://github.com/IMaugrenI/tof-bridge-planning-method.git
 cd tof-bridge-planning-method
+```
 
-python -m venv .venv
+### Linux / macOS
+
+```bash
+python3 -m venv .venv
 source .venv/bin/activate
-pip install -e .
+python -m pip install -e .
 tof-bridge-plan run
 ```
 
-On Windows, activate the virtual environment using the normal PowerShell/Command Prompt activation command before running `pip install -e .`.
+### Windows PowerShell
+
+```powershell
+py -m venv .venv
+.\.venv\Scripts\Activate.ps1
+python -m pip install -e .
+tof-bridge-plan run
+```
 
 ## Docker alternative
 
